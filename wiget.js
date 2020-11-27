@@ -12,7 +12,7 @@
 <!--html-->
 <div class="login-box">
   <h2>Search Plans</h2>
-  <form action="/search-product" method="get">
+  <form action="https://www.g1g.com/searchproduct/hash_XNUE1NEPKZ" method="get">
     <div class="user-box">
       <input type="text" name="tripStartDate" required="">
       <label>Trip Start Date</label>
