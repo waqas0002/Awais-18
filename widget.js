@@ -1,20 +1,20 @@
-ajax();
-function ajax(){
+// ajax();
+// function ajax(){
 
-    let myDiv = document.querySelector('.widgets');
-    let affId = myDiv.dataset.affiliateid
+//     let myDiv = document.querySelector('.widgets');
+//     let affId = myDiv.dataset.affiliateid
 
-    let xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            document.onload = loadWidget();
-        }
-    };
-    xhttp.open("GET", 'http://localhost/widget/'+affId, true);
-    xhttp.send();
-}
+//     let xhttp = new XMLHttpRequest();
+//     xhttp.onreadystatechange = function() {
+//         if (this.readyState == 4 && this.status == 200) {
+//             document.onload = loadWidget();
+//         }
+//     };
+//     xhttp.open("GET", 'http://localhost/widget/'+affId, true);
+//     xhttp.send();
+// }
 
-
+document.onload = loadWidget();
 function loadWidget(){
 
     loadStylesheet();
