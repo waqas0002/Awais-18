@@ -357,10 +357,9 @@ p
 
 
 /*Payment form css*/
-
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900,700,500);
 
-body {
+.body-div {
   padding: 60px 0;
   background-color: rgba(178,209,229,0.7);
   margin: 0 auto;
